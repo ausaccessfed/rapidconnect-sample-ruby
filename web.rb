@@ -43,3 +43,7 @@ post '/auth/jwt' do
     halt 500, "Signature was invalid"
   end
 end
+
+get '/INSERT_YOUR_RAPID_CONNECT_URL_HERE' do
+  erb :readme
+end
