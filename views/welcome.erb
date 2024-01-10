@@ -13,13 +13,13 @@
     <section class="content">
       <div class="container">
         <div class="row">
-          <div class="span2"><img src="/aaf_white.png"/></div>
+          <div class="span1"><img src="/aaflogo.png"/></div>
           <div class="span10"><a href="/logout" class="pull-right btn btn-inverse">Logout</a><h2>Welcome<br><small>You've successfully logged in via AAF Rapid Connect.</small></h2></div>
         </div>
         <br>
         <div class="row">
-          <p>You've just logged in via your normal AAF IdP using the <a href="http://en.wikipedia.org/wiki/Security_Assertion_Markup_Language">SAML 2.0</a> protocol. The AAF then translated that to a <a href="http://self-issued.info/docs/draft-ietf-oauth-json-web-token.html">JWT</a> and pushed it to this app running on <strong>Heroku</strong> where we could use it to authenticate your session.</p>
-          <p>This is part of a research project to understand ways we can make federated authentication easier and more accessible for a wider range of developers and use cases. Do <a href="http://twitter.com/bradleybeddoes">let me know</a> if you have any feedback or thoughts, alternatively send them to <a href="mailto:support@aaf.edu.au">AAF Support</a>.</p>
+          <p>You've just logged in via your normal AAF IdP using the <a href="https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language">SAML 2.0</a> protocol. The AAF then translated that to a <a href="https://self-issued.info/docs/draft-ietf-oauth-json-web-token.html">JWT</a> and pushed it to this app running in a local development environment where we could use it to authenticate your session.</p>
+          <p>If you have any feedback or thoughts send them to <a href="mailto:support@aaf.edu.au">AAF Support</a>.</p>
           <h3>This is what we learned about you</h3>
           <ul>
             <% @attributes.each do |name, val| %>
@@ -46,9 +46,9 @@
     <footer>
       <div class="container">
         <hr>
-        <p>Heroku Demo Application</p>
+        <p>Local Demo Application</p>
         <p>
-          Developed for the <a href="http://www.aaf.edu.au">Australian Access Federation</a> by <a href="http://bradleybeddoes.com">Bradley Beddoes</a>
+          Developed by the <a href="http://www.aaf.edu.au">Australian Access Federation</a>
         </p>
       </div>
     </footer>
