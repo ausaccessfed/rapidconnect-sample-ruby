@@ -15,7 +15,7 @@ There are two modifications which **MUST** be made before this application will 
 
 ### Registration
 
-You may register against [Rapid Connect Test](https://manager.aaf.edu.au/rapid_connect/services/new) to test this application. Please use a sensible descriptive name for your service. It's much easier for us if we don't have a database full of "test service" belonging to various people.
+You may register against [Rapid Connect Test](https://manager.test.aaf.edu.au/rapid_connect/services/new) to test this application. Please use a sensible descriptive name for your service. It's much easier for us if we don't have a database full of "test service" belonging to various people.
 
 If you are running this on your desktop with the default settings, the callback URL is most likely `http://localhost:8080/auth/jwt`
 
