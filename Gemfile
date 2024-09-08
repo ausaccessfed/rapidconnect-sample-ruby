@@ -4,5 +4,5 @@ source "https://rubygems.org"
 gem "sinatra"
 gem 'sinatra-contrib'
 
-gem 'puma'
+gem 'puma', '>= 5.6.8'
 gem 'json-jwt'
