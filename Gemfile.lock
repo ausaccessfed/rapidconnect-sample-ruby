@@ -46,7 +46,7 @@ PLATFORMS
 
 DEPENDENCIES
   json-jwt
-  puma (>= 5.6.8)
+  puma
   sinatra
   sinatra-contrib
 
