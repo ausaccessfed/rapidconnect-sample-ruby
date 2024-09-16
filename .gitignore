@@ -1,8 +1,21 @@
+public/*
+coverage
+tmp
+log
+vendor
+.DS_Store
+dump.rdb
+.idea
+.env
+!.*env*.dist
+.vscode/*
+!**/*vscode/extensions.json
+node_modules
+#EOF_DISTRIBUTION
 *.gem
 *.rbc
 .bundle
 .config
-coverage
 InstalledFiles
 lib/bundler/man
 pkg
@@ -10,7 +23,6 @@ rdoc
 spec/reports
 test/tmp
 test/version_tmp
-tmp
 
 # YARD artifacts
 .yardoc
